@@ -1,0 +1,8 @@
+patch:
+  "/api/projects/.*": "datalab_g_role_001,datalab_g_role_002"
+post:
+  "/api/projects": "datalab_g_role_001"
+  "/api/tasks/.*/drafts": "datalab_g_role_001"
+get:
+  "/projects/.*/settings": "datalab_g_role_001"
+  "/projects/.*/data": "datalab_g_role_001"
